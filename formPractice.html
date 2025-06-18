@@ -1,0 +1,71 @@
+﻿
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title">Title</h1>
+    <p id="description">Short Explanation</p>
+    <form id="survey-form">
+
+        <label for="text" id="name-label">Text</label>
+        <input placeholder="Name" id="name" name="text" type="text" required><br><br>
+
+        <label for="email" id="email-label">Email</label>
+        <input placeholder="Email@email.com" id="email" type="email" required><br><br>
+
+        <label for="number" id="number-label">Number</label>
+
+        <input placeholder="555-555-5555" id="number" type="number" min="10" max="36" required>
+
+        <div>
+            <br>
+            Which option would you choose?
+            <br>
+            <select id="dropdown">
+                <option>Option 1</option>
+                <option>Option 2</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <br>Would you recommend?
+            <input name="user-recommend" type="radio" value="yes">Yes
+
+            <input name="user-recommend" type="radio" value="no">No
+        </div>
+
+        <div>
+            <br>Is it good or great?<br>
+            <select id="checkbox">
+
+                <option value="good">Good</option>
+                <option value="great">Great</option>
+
+
+            </select>
+            <br>
+            <br>Which option do you now choose?
+            <input name="option1" value="option1" type="checkbox">option1
+            <input name="option2" value="option2" type="checkbox">Option2
+
+        </div>
+        <br>Additional Comments<br>
+        <textarea>
+         </textarea>
+        <div>
+
+            <button id="submit">Submit</button>
+        </div>
+    </form>
+
+
+</body>
+</html>
+
+
+

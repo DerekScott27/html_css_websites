@@ -1,0 +1,140 @@
+﻿body {
+}
+
+h1{
+    text-align: center;
+    
+}
+.top-flex {
+    text-align: center;
+    font-size: 16px;
+    word-spacing: 38px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-bottom: 25px;
+
+}
+
+.top-flex a {
+        text-decoration: none;
+        color: #272B8E;
+    }
+
+.top-flex a:hover {
+        filter: brightness(5.0);
+    }
+
+.image-container1{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+    align-items: center;
+}
+#image1, #image2, #image3, #image4 {
+    width: 80%;
+    height: 460px;
+}
+
+footer {
+    background-color: #1C1C1C;
+    height: 300px;
+    
+}
+
+.bottom-flexbox-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+    padding-right: 15%;
+    padding-left: 12%;
+}
+
+.ul-container{
+    
+}
+
+.ul-container a {
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        color: #000;
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: -15px;
+        filter: invert(1);
+    }
+
+.ul-container a:hover {
+        filter: invert(90%) sepia(80%) saturate(5000%) hue-rotate(40deg) brightness(150%)
+    }
+
+
+#ul {
+    list-style-type: none;
+    
+}
+
+li {
+    margin-top: 1em;
+}
+.footer-center-container {
+    
+}
+
+#footer-center-text {
+    font-family: 'Roboto' sans-serif;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-left: -50px;
+}
+
+#boy-toy-bottom-image{
+    width: 225px;
+    height:auto;
+}
+
+#insta-container {
+}
+
+#svg {
+   
+    width: 75px;
+    height: 65px;
+   
+ 
+}
+
+.svg-container img {
+        filter: invert(1);
+    }
+
+.svg-container img:hover {
+        filter: invert(90%) sepia(80%) saturate(5000%) hue-rotate(40deg) brightness(150%);
+    }
+
+#instagram-at-link {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    filter: invert(1);
+}
+
+#instagram-at-link:hover {
+        filter: invert(90%) sepia(80%) saturate(5000%) hue-rotate(40deg) brightness(150%)
+    }
+#copyright{
+    color:#ffff;
+    font-family: 'Roboto' sans-seriff;
+    font-size: 12px;
+    text-align: center;
+    margin-left: -15px;
+}
